@@ -13,12 +13,12 @@ body {
 
 /* general */
 
-.container {
+/* .container { 
   width: 100%;
-  max-width: 960px;
+  /*max-width: 960px;
   margin: 0 auto;
   clear: both;
-}
+} */
 
 h1,
 h2,
@@ -78,11 +78,12 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
+/* nav {
   float: right;
   margin-top: 25px;
 }
-
+ */
+/* 
 nav a {
   display: inline-block;
   padding-left: 15px;
@@ -91,7 +92,7 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
-}
+} */
 
 nav a:first-child {
   border-left: 0 none;
@@ -99,7 +100,7 @@ nav a:first-child {
 
 /* footer */
 
-footer {
+#footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
@@ -208,7 +209,8 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+/* input[type=submit]  */
+#btn-submit{
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
